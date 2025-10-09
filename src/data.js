@@ -90,17 +90,12 @@ export const data = {
     },
     {
       name: "Vite",
-      image: "https://vitejs.dev/logo-with-shadow.png",
+      image: "https://img.icons8.com/color/48/vite.png",
       category: "Frontend",
     },
     {
       name: "Sass",
       image: "https://img.icons8.com/color/144/null/sass.png",
-      category: "Frontend",
-    },
-    {
-      name: "GraphQL",
-      image: "https://img.icons8.com/color/144/null/graphql.png",
       category: "Frontend",
     },
     {
@@ -132,11 +127,6 @@ export const data = {
     {
       name: "Webpack",
       image: "https://img.icons8.com/color/144/null/webpack.png",
-      category: "Tools",
-    },
-    {
-      name: "Docker",
-      image: "https://img.icons8.com/color/144/null/docker.png",
       category: "Tools",
     },
     {
