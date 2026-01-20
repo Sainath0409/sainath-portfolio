@@ -12,7 +12,7 @@ const Experiences = () => {
 
   return (
     <section id="experience" className="pt-6">
-      <h2 className="text-4xl text-center dark:text-white">
+      <h2 className="text-4xl text-center text-black dark:text-white">
         Career <span className="text-[#DC143C]">Timeline</span>
       </h2>
 
@@ -21,11 +21,10 @@ const Experiences = () => {
           <button
             key={i}
             onClick={() => setShow(e)}
-            className={`py-2 px-4 rounded-md transition-colors ${
-              show === e
+            className={`py-2 px-4 rounded-md transition-colors ${show === e
                 ? "bg-[#DC143C] dark:bg-[#DC143C] text-white"
                 : "bg-white text-black  dark:bg-gray-800 dark:text-white hover:bg-red-100 hover:dark:bg-red-900"
-            }`}
+              }`}
           >
             {e}
           </button>
@@ -38,11 +37,11 @@ const Experiences = () => {
 
           {viewAll
             ? (show === "Experience" ? experiences : educations).map((e, i) => (
-                <ExperienceCard key={i} {...e} index={i} />
-              ))
+              <ExperienceCard key={i} {...e} index={i} />
+            ))
             : (show === "Experience" ? experiences : educations)
-                .slice(0, 3)
-                .map((e, i) => <ExperienceCard key={i} {...e} index={i} />)}
+              .slice(0, 3)
+              .map((e, i) => <ExperienceCard key={i} {...e} index={i} />)}
         </div>
       </div>
     </section>

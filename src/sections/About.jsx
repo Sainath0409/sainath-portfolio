@@ -8,7 +8,7 @@ const About = () => {
       id="about"
       className="min-h-[90vh] pt-12 bg-gradient-to-b from-white to-gray-100/20 dark:from-grey-900 dark:to-grey-900"
     >
-      <h2 className="text-4xl text-center dark:text-white">
+      <h2 className="text-4xl text-center text-black dark:text-white">
         About <span className="text-[#DC143C]">Me</span>
       </h2>
 
@@ -29,7 +29,7 @@ const About = () => {
 
         <div className="flex-1 text-left mx-4 mt-4 md:mt-0 md:mx-0 md:p-6">
           <div className="flex flex-col gap-2.5">
-            <p className="text-3xl font-semibold dark:text-white">
+            <p className="text-3xl font-semibold text-black dark:text-white">
               <span className="text-[#DC143C]">A Sainath Patro</span>
             </p>
             <p className="text-black w-fit rounded text-md dark:text-white font-semibold">
@@ -40,7 +40,7 @@ const About = () => {
             </p>
             <div className="flex items-center gap-4 md:mt-4">
               <a
-                 href={"/ASainathPatroResume.pdf"}
+                href={"/ASainathPatroResume.pdf"}
                 download="Sainath-Patro-Resume.pdf"
                 className="text-sm md:text-base bg-[#DC143C] dark:bg-[#DC143C] text-white font-semibold w-fit rounded-md py-2 px-6 hover:shadow-xl transition-shadow"
               >

@@ -19,7 +19,7 @@ export const Header = () => {
   return (
     <header className="flex md:px-28 bg-white dark:bg-black dark:bg-opacity-80 justify-between shadow-md p-3 items-center fixed backdrop-filter backdrop-blur-md  top-0 z-40 w-full">
       <div className="">
-        <h1 className="text-xl md:text-3xl font-bold relative dark:text-white">
+        <h1 className="text-xl md:text-3xl font-bold relative text-black dark:text-white">
           A Sainath <span className="text-[#DC143C]">Patro</span>
         </h1>
       </div>
@@ -109,7 +109,7 @@ export const Header = () => {
             {navs.map((e) => (
               <Link
                 key={e}
-                className="dark:text-white hover:text-[#DC143C] py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
+                className="text-black dark:text-white hover:text-[#DC143C] py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
                 to={e}
                 offset={-60}
                 smooth={true}
@@ -126,7 +126,7 @@ export const Header = () => {
               smooth={true}
               duration={500}
               onClick={() => setNavCollapse(true)}
-              className="dark:text-white hover:text-[#DC143C] py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
+              className="text-black dark:text-white hover:text-[#DC143C] py-1.5 px-4 rounded transition-colors capitalize cursor-pointer"
             >
               Contact
             </Link>

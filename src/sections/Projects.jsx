@@ -26,7 +26,7 @@ const Projects = () => {
 
     return (
         <section id="projects" className="mx-4 md:mx-0 min-h-screen xl:py-20">
-            <h2 className="text-4xl text-center dark:text-white">
+            <h2 className="text-4xl text-center text-black dark:text-white">
                 Recent <span className="text-[#DC143C]">Projects</span>
             </h2>
 
@@ -35,11 +35,10 @@ const Projects = () => {
                     <span
                         key={i}
                         onClick={() => filterProjects(c)}
-                        className={`p-1.5 md:p-2 w-full text-sm md:text-base text-center font-semibold capitalize rounded-md cursor-pointer transition-all ${
-                            category === c
+                        className={`p-1.5 md:p-2 w-full text-sm md:text-base text-center font-semibold capitalize rounded-md cursor-pointer transition-all ${category === c
                                 ? "bg-[#DC143C] dark:bg-[#DC143C] text-white"
                                 : "bg-white text-black  dark:bg-gray-800 dark:text-white hover:bg-red-100 hover:dark:bg-red-900"
-                        }`}
+                            }`}
                     >
                         {c}
                     </span>

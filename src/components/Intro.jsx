@@ -24,15 +24,15 @@ const Intro = () => {
           <div className="flex items-center gap-1">
             <img className="h-8" src={"/img/waving-hand.gif"} alt="waving" />
 
-            <p className="text-lg md:text-xl mt-2 md:mt-1.5 dark:text-white">
+            <p className="text-lg md:text-xl mt-2 md:mt-1.5 text-black dark:text-white">
               Hey
             </p>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold relative dark:text-white">
+          <h1 className="text-4xl md:text-6xl font-bold relative text-black dark:text-white">
             I&apos;m <span className="text-[#DC143C]">{data?.main?.name}</span>
           </h1>
           <div className="flex flex-row items-start md:items-center gap-1.5">
-            <h2 className="text-lg md:text-2xl dark:text-white">I am</h2>
+            <h2 className="text-lg md:text-2xl text-black dark:text-white">I am</h2>
             <Typewriter
               options={{
                 strings: titles,

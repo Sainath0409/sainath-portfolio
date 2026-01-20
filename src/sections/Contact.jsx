@@ -3,13 +3,13 @@ import { Mail, Phone, MapPin } from "lucide-react";
 const Contact = () => {
   return (
     <section id="contact" className="p-12 mx-4 lg:mx-0">
-      <h2 className="text-center text-4xl dark:text-white">
+      <h2 className="text-center text-4xl text-black dark:text-white">
         Contact <span className="text-[#DC143C]">info</span>
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-between gap-10 max-w-6xl mx-auto p-8">
         <img
-         
-         
+
+
           alt="contact"
           src={"/img/contact.png"}
           className="hidden md:block w-1/2 rounded-xl object-cover"
