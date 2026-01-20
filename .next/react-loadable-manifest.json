@@ -1,0 +1,50 @@
+{
+  "app\\page.jsx -> ../components/Header": {
+    "id": "app\\page.jsx -> ../components/Header",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_Header_jsx.js"
+    ]
+  },
+  "app\\page.jsx -> ../components/Socials": {
+    "id": "app\\page.jsx -> ../components/Socials",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_Socials_jsx.js"
+    ]
+  },
+  "app\\page.jsx -> ../sections/About": {
+    "id": "app\\page.jsx -> ../sections/About",
+    "files": [
+      "static/chunks/_app-pages-browser_src_sections_About_jsx.js"
+    ]
+  },
+  "app\\page.jsx -> ../sections/Contact": {
+    "id": "app\\page.jsx -> ../sections/Contact",
+    "files": [
+      "static/chunks/_app-pages-browser_src_sections_Contact_jsx.js"
+    ]
+  },
+  "app\\page.jsx -> ../sections/Experiences": {
+    "id": "app\\page.jsx -> ../sections/Experiences",
+    "files": [
+      "static/chunks/_app-pages-browser_src_sections_Experiences_jsx.js"
+    ]
+  },
+  "app\\page.jsx -> ../sections/Home": {
+    "id": "app\\page.jsx -> ../sections/Home",
+    "files": [
+      "static/chunks/_app-pages-browser_src_sections_Home_jsx.js"
+    ]
+  },
+  "app\\page.jsx -> ../sections/Projects": {
+    "id": "app\\page.jsx -> ../sections/Projects",
+    "files": [
+      "static/chunks/_app-pages-browser_src_sections_Projects_jsx.js"
+    ]
+  },
+  "app\\page.jsx -> ../sections/Skills": {
+    "id": "app\\page.jsx -> ../sections/Skills",
+    "files": [
+      "static/chunks/_app-pages-browser_src_sections_Skills_jsx.js"
+    ]
+  }
+}

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-scroll";
@@ -81,7 +82,7 @@ export const Header = () => {
           className="rounded-full h-7 w-7 p-2 md:hover:bg-gray-200 bg-gray-200 flex justify-center items-center dark:bg-[#DC143C]"
         >
           <span
-            class={
+            className={
               "material-symbols-outlined text-xl text-gray-600 dark:text-white hover:text-black"
             }
           >
@@ -92,19 +93,18 @@ export const Header = () => {
           onClick={() => setNavCollapse(false)}
           className="rounded-full h-7 w-7 hover:bg-gray-200 md:hidden dark:text-white"
         >
-          <span class="material-symbols-outlined text-2xl">segment</span>
+          <span className="material-symbols-outlined text-2xl">segment</span>
         </button>
         <div
-          className={`flex min-h-screen w-screen absolute md:hidden top-0 ${
-            !navCollapse ? "right-0" : "right-[-100%]"
-          } bottom-0 z-50 ease-in duration-300`}
+          className={`flex min-h-screen w-screen absolute md:hidden top-0 ${!navCollapse ? "right-0" : "right-[-100%]"
+            } bottom-0 z-50 ease-in duration-300`}
         >
           <div className="w-1/4" onClick={() => setNavCollapse(true)}></div>
 
           <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4">
             <button
               onClick={() => setNavCollapse(true)}
-              class="bi bi-x text-xl self-end my-2 rounded-full h-7 w-7 bg-gray-200 flex items-center justify-center hover:bg-[#DC143C] hover:text-white"
+              className="bi bi-x text-xl self-end my-2 rounded-full h-7 w-7 bg-gray-200 flex items-center justify-center hover:bg-[#DC143C] hover:text-white"
             ></button>
             {navs.map((e) => (
               <Link

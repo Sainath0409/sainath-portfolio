@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -30,7 +31,7 @@ const ProjectCard = ({ data }) => {
 					width={1000}
 					height={1000}
 					className="max-w-full h-48 max-h-full object-cover object-top rounded-lg"
-					src={process.env.PUBLIC_URL + data?.image}
+					src={data?.image}
 				/>
 				{(data?.links.visit.trim() ||
 					data?.links.code.trim() ||
@@ -42,7 +43,7 @@ const ProjectCard = ({ data }) => {
                  rel="noreferrer"
 								target="_blank"
 								className="bg-white text-black p-2 rounded-lg hover:bg-black hover:text-white transition-all px-3">
-								<i class="bi bi-app-indicator"></i>
+								<i className="bi bi-app-indicator"></i>
 							</a>
 						)}
 						{data?.links.code.trim() && (
@@ -51,7 +52,7 @@ const ProjectCard = ({ data }) => {
                 rel="noreferrer"
 								target="_blank"
 								className="bg-white text-black p-2 rounded-lg hover:bg-black hover:text-white transition-all px-3">
-								<i class="bi bi-github"></i>
+								<i className="bi bi-github"></i>
 							</a>
 						)}
 						{data?.links.video.trim() && (
@@ -60,7 +61,7 @@ const ProjectCard = ({ data }) => {
                  rel="noreferrer"
 								target="_blank"
 								className="bg-white text-black p-2 rounded-lg hover:bg-black hover:text-white transition-all px-3">
-								<i class="bi bi-camera-video"></i>
+								<i className="bi bi-camera-video"></i>
 							</a>
 						)}
 					</div>
